@@ -35,6 +35,8 @@ This is a sample Inventory System built with Angular 17. The project demonstrate
 │           ├── dashboard
 │           ├── inventory
 │           └── auth
+
+
 ```
 
 ## Setup
