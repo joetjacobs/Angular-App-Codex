@@ -9,5 +9,11 @@ export const routes: Routes = [
     path: 'inventory',
     loadChildren: () => import('./features/inventory/inventory.module').then(m => m.InventoryModule)
   },
+
+  {
+    path: 'login',
+    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)
+  },
+
   { path: '**', redirectTo: '' }
 ];
