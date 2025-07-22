@@ -8,6 +8,7 @@ This is a sample Inventory System built with Angular 17. The project demonstrate
 - Inventory list view with search and CRUD actions
 - Item detail form for creating and editing items
 - Responsive layout using Angular Material
+- Login page with forgot password form
 - Lazy loaded feature modules
 - Data service using RxJS and HttpClient
 
@@ -32,7 +33,8 @@ This is a sample Inventory System built with Angular 17. The project demonstrate
 │       ├── app.routes.ts
 │       └── features
 │           ├── dashboard
-│           └── inventory
+│           ├── inventory
+│           └── auth
 ```
 
 ## Setup
